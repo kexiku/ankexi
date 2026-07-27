@@ -1,48 +1,34 @@
-/* ---------
- catppuccin
---------- */
+/* ──────────────────────────╮
+│ ☕ catppuccin · macchiato
+╰─────────────────────────── */
 :root {
   --text: #cad3f5;
   --bg-front: #24273a;
-  --bg-back: #181926;
-  --accent: #81c8be;
-  --en-text: #8087a2;
+  --bg-back: #1e2030;
+  --accent: #f4dbd6;
+  --en-text: #a5adcb;
   --divider: #6e738d;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
 }
 
-/* ------
- gruvbox
------- */
+/* ──────────────────────╮
+│ 🍪 catppuccin · mocha
+╰─────────────────────── */
 :root {
-  --text: #ebdbb2;
-  --bg-front: #32302f;
-  --bg-back: #1d2021;
-  --accent: #fb4934;
-  --en-text: #bdae93;
-  --divider: #a89984;
+  --text: #cdd6f4;
+  --bg-front: #1e1e2e;
+  --bg-back: #181825;
+  --accent: #f5c2e7;
+  --en-text: #a6adc8;
+  --divider: #6c7086;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
 }
 
-/* ---------
- everforest
---------- */
-:root {
-  --text: #5c6a72;
-  --bg-front: #fdf6e3;
-  --bg-back: #efebd4;
-  --accent: #f57d26;
-  --en-text: #708089;
-  --divider: #829181;
-
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
-}
-
-/* ----------
- tokyo night
------------*/
+/* ───────────────╮
+│ 🗼 tokyo night
+╰──────────────── */
 :root {
   --text: #c0caf5;
   --bg-front: #24283b;
@@ -50,6 +36,118 @@
   --accent: #f7768e;
   --en-text: #a9b1d6;
   --divider: #9aa5ce;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ───────────╮
+│ 🖲️ gruvbox
+╰──────────── */
+:root {
+  --text: #ebdbb2;
+  --bg-front: #32302f;
+  --bg-back: #282828;
+  --accent: #fb4934;
+  --en-text: #bdae93;
+  --divider: #a89984;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ──────────────╮
+│ 🍂 everforest
+╰─────────────── */
+:root {
+  --text: #d3c6aa;
+  --bg-front: #2d353b;
+  --bg-back: #343f44;
+  --accent: #e69875;
+  --en-text: #9Da9a0;
+  --divider: #a7c080;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ────────╮
+│ 🗻 nord
+╰───────── */
+:root {
+  --text: #eceff4;
+  --bg-front: #3b4252;
+  --bg-back: #2e3440;
+  --accent: #88c0d0;
+  --en-text: #d8dee9;
+  --divider: #81a1c1;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ─────────────╮
+│ 🌹 rosé pine
+╰────────────── */
+:root {
+  --text: #e0def4;
+  --bg-front: #1f1d2e;
+  --bg-back: #26233a;
+  --accent: #ebbcba;
+  --en-text: #908caa;
+  --divider: #6e6a86;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ────────────╮
+│ 🌊 kanagawa
+╰───────────── */
+:root {
+  --text: #dcd7ba;
+  --bg-front: #2a2a37;
+  --bg-back: #1f1f28;
+  --accent: #a3d4d5;
+  --en-text: #c8c093;
+  --divider: #727169;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ──────────────╮
+│ 🌇 ayu mirage
+╰─────────────── */
+:root {
+  --text: #cccac2;
+  --bg-front: #2d3142;
+  --bg-back: #1f2430;
+  --accent: #ffcc66;
+  --en-text: #b8c0cc;
+  --divider: #707a8c;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ────────────────────────╮
+│ 🫐 blueberry cheesecake
+╰───────────────────────── */
+:root {
+  --text: #edf3ff;
+  --bg-front: #3f4b78;
+  --bg-back: #262d49;
+  --accent: #a6c8ff;
+  --en-text: #cad8f5;
+  --divider: #7f96d8;
+
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+}
+
+/* ───────────────╮
+│ 🍸 piano woman
+╰──────────────── */
+:root {
+  --text: #dce6ff;
+  --bg-front: #2a2943;
+  --bg-back: #171625;
+  --accent: #6ee7f2;
+  --en-text: #9ca4d9;
+  --divider: #4b5d8d;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
 }
