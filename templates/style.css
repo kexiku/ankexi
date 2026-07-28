@@ -1,11 +1,12 @@
-/* For more color schemes check 'templates' > 'color schemes' */
+/* For more color schemes 
+check 'templates' > 'color schemes' */
 
 :root {
   --text: #cad3f5;
+  --en-text: #a5adcb;
+  --accent: #f4dbd6;
   --bg-top: #24273a;
   --bg-bottom: #1e2030;
-  --accent: #f4dbd6;
-  --en-text: #a5adcb;
   --divider: #6e738d;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);

@@ -32,7 +32,7 @@ You have 2 options:
 ### Ready-made deck
 
 Example card pack to demonstrate all the features.  
-Just [download](https://github.com/satanori/Ankitty/raw/refs/heads/main/examples/ankitty.example.apkg) and import to your collection.
+Just [download](https://github.com/satanori/Ankitty/raw/refs/heads/main/examples/ankitty.apkg) and import to your collection.
 
 ### Template files
 
