@@ -1,9 +1,9 @@
-/* For more color schemes check "/templates/color schemes" */
+/* For more color schemes check 'templates' > 'color schemes' */
 
 :root {
   --text: #cad3f5;
-  --bg-front: #24273a;
-  --bg-back: #1e2030;
+  --bg-top: #24273a;
+  --bg-bottom: #1e2030;
   --accent: #f4dbd6;
   --en-text: #a5adcb;
   --divider: #6e738d;
@@ -24,6 +24,7 @@
 }
 
 html {
+  font-size: 100%;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -31,45 +32,28 @@ html {
 
 .card,
 .card.nightMode {
-  flex-grow: 1;
-
   font-family: "literata", serif;
   font-weight: 300;
-  font-size: 34px;
+  font-size:  2.125rem;
   text-align: center;
   color: var(--text);
 
   display: flex;
-}
-
-.mobile .card,
-.mobile .card.nightMode {
-  background-color: var(--bg-back);
-  font-size: 28px;
-}
-
-.mobile #content {
-  border-radius: 0;
-  border: none;
-  height: 100%;
-  max-width: none;
-  background-color: var(--bg-back);
-  box-shadow: none;
-}
-
-.card > div,
-.card.nightMode > div {
   flex-grow: 1;
-
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.mobile .card,
+.mobile .card.nightMode {
+  background-color: var(--bg-bottom);
+  font-size: 1.75rem;
+}
+
 #content {
   border-radius: 30px;
-  box-shadow: 0 6px 45px rgba(0, 0, 0, 0.4);
-  border: 2px solid var(--edge);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.5);
+  border: 3px solid var(--edge);
   overflow: hidden;
 
   width: 100%;
@@ -77,28 +61,41 @@ html {
   margin: 0 auto;
 }
 
+.mobile #content {
+  border-radius: 0;
+  border: none;
+  height: 100%;
+  max-width: none;
+  background-color: var(--bg-bottom);
+  box-shadow: none;
+
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .top {
-  background-color: var(--bg-front);
-  padding: 30px;
+  background-color: var(--bg-top);
+  padding: 1.875rem;
 }
 
 .bottom {
-  background-color: var(--bg-back);
-  padding: 30px;
+  background-color: var(--bg-bottom);
+  padding: 1.875rem;
+}
+
+.hidden {
+  display: none;
 }
 
 .small {
-  font-size: 20px;
   color: var(--en-text);
+  font-size: 1.25rem;
 }
 
 .medium {
-  font-size: 27px;
-}
-
-.sz {
-  color: var(--en-text);
-  font-size: 20px;
+  font-size: 1.625rem;
 }
 
 em,
@@ -109,12 +106,8 @@ b {
   color: var(--accent);
 }
 
-.hidden {
-  display: none;
-}
-
-hr {
-  height: 2px;
+.divider {
+  height: 1.5px;
   background-color: var(--divider);
-  border: none;
+  border-radius: 1px;
 }
