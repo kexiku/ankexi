@@ -3,10 +3,10 @@
 ╰─────────────────────── */
 :root {
   --text: #4c4f69;
-  --bg-front: #eff1f5;
-  --bg-back: #e6e9ef;
-  --accent: #dd7878;
   --en-text: #6c6f85;
+  --accent: #dd7878;
+  --bg-top: #eff1f5;
+  --bg-bottom: #e6e9ef;
   --divider: #9ca0b0;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
@@ -17,10 +17,10 @@
 ╰─────────────── */
 :root {
   --text: #5c6a72;
-  --bg-front: #fdf6e3;
-  --bg-back: #efebd4;
-  --accent: #8da101;
   --en-text: #708089;
+  --accent: #8da101;
+  --bg-top: #fdf6e3;
+  --bg-bottom: #efebd4;
   --divider: #93b259;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
@@ -31,10 +31,10 @@
 ╰───────── */
 :root {
   --text: #2e3440;
-  --bg-front: #d8dee9;
-  --bg-back: #eceff4;
-  --accent: #5e81ac;
   --en-text: #434c5e;
+  --accent: #5e81ac;
+  --bg-top: #d8dee9;
+  --bg-bottom: #eceff4;
   --divider: #81a1c1;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
@@ -45,10 +45,10 @@
 ╰─────────────────── */
 :root {
   --text: #464261;
-  --bg-front: #fffaf3;
-  --bg-back: #f2e9e1;
-  --accent: #d7827e;
   --en-text: #797593;
+  --accent: #d7827e;
+  --bg-top: #fffaf3;
+  --bg-bottom: #f2e9e1;
   --divider: #9893a5;
 
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
