@@ -1,5 +1,19 @@
+/* ───────────────────────╮
+│ 🫐 blueberry ⬩ yoghurt
+╰──────────────────────── */
+:root {
+  --text: #2f3d61;
+  --en-text: #53678f;
+  --accent: #5f88da;
+  --bg-top: #f8f6ff;
+  --bg-bottom: #e7efff;
+  --divider: #97afe6;
+  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --wallpaper: url('wallpapers/blueberry.yoghurt.jpg');
+}
+
 /* ──────────────────────╮
-│ 🥛 catppuccin · latte
+│ 🥛 catppuccin ⬩ latte
 ╰─────────────────────── */
 :root {
   --text: #4c4f69;
@@ -8,12 +22,12 @@
   --bg-top: #eff1f5;
   --bg-bottom: #e6e9ef;
   --divider: #9ca0b0;
-
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --wallpaper: url('wallpapers/catppuccin.latte.jpg');
 }
 
 /* ──────────────╮
-│ 🍃 everforest
+│ 🍂 everforest
 ╰─────────────── */
 :root {
   --text: #5c6a72;
@@ -22,27 +36,13 @@
   --bg-top: #fdf6e3;
   --bg-bottom: #efebd4;
   --divider: #93b259;
-
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --wallpaper: url('wallpapers/everforest.jpg');
 }
 
-/* ────────╮
-│ 🌨️ nord
-╰───────── */
-:root {
-  --text: #2e3440;
-  --en-text: #434c5e;
-  --accent: #5e81ac;
-  --bg-top: #d8dee9;
-  --bg-bottom: #eceff4;
-  --divider: #81a1c1;
-
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
-}
-
-/* ──────────────────╮
-│ 🥀 rosé pine dawn
-╰─────────────────── */
+/* ──────────────────────╮
+│ 🥀 rosé · pine ⬩ dawn
+╰─────────────────────── */
 :root {
   --text: #464261;
   --en-text: #797593;
@@ -50,6 +50,6 @@
   --bg-top: #fffaf3;
   --bg-bottom: #f2e9e1;
   --divider: #9893a5;
-
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --wallpaper: url('wallpapers/rose.pine.dawn.jpg');
 }

@@ -1,15 +1,14 @@
 /* For more color schemes 
 check 'templates' > 'color schemes' */
-
 :root {
-  --text: #cad3f5;
-  --en-text: #a5adcb;
-  --accent: #f4dbd6;
-  --bg-top: #24273a;
-  --bg-bottom: #1e2030;
-  --divider: #6e738d;
-
+  --text: #edf3ff;
+  --en-text: #cad8f5;
+  --accent: #a6c8ff;
+  --bg-top: #3f4b78;
+  --bg-bottom: #262d49;
+  --divider: #7f96d8;
   --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --wallpaper: url('wallpapers/blueberry.cake.jpg');
 }
 
 @font-face {
@@ -49,6 +48,17 @@ html {
 .mobile .card.nightMode {
   background-color: var(--bg-bottom);
   font-size: 1.75rem;
+}
+
+.card::before,
+.card.nightMode::before {
+content: "";
+position: fixed;
+top: 0; left: 0; width: 100%; height: 100%;
+background-image: var(--wallpaper);
+background-size: cover;
+filter: blur(8px);
+z-index: -1;
 }
 
 #content {

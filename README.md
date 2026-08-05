@@ -1,5 +1,5 @@
-# <p align="center"> <b> :dizzy: Ankitty :dizzy: </b> </p>
-### <p align="center"> <i> Gain your study buddies' envy to maximum level </i> </p>
+# <p align="center"> <b> :candy: Ankitty :candy: </b> </p>
+### <p align="center"> <i> Eye candy for your deck </i> </p>
 <!-- 
 <p align="center">
   <img src="/assets/preview.png" alt="Stylized Anki card preview" />
@@ -23,18 +23,20 @@ As the original creator states:
 
 ### :sparkles: Fork enhancements
 
-*\*will be added soon\**
+- More schemes (including light ones!)
+- Boosted study buddies' envy level
+- Aesthetic wallpapers included
 
 ## :hammer_and_wrench: Installation
 
 You have 2 options:
 
-### Ready-made deck
+### :package: Ready-made deck
 
 Example card pack to demonstrate all the features.  
 Just [download](https://github.com/satanori/Ankitty/raw/refs/heads/main/examples/ankitty.apkg) and import to your collection.
 
-### Template files
+### :card_index_dividers: Template files
 
 Layout templates you can manually add to your cards and customize as you wish :cherry_blossom:
 
