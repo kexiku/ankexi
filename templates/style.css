@@ -7,7 +7,7 @@ check 'templates' > 'color schemes' */
   --bg-top: #3f4b78;
   --bg-bottom: #262d49;
   --divider: #7f96d8;
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/blueberry.cake.jpg');
 }
 
@@ -57,7 +57,7 @@ position: fixed;
 top: 0; left: 0; width: 100%; height: 100%;
 background-image: var(--wallpaper);
 background-size: cover;
-filter: blur(8px);
+filter: blur(4px);
 z-index: -1;
 }
 
