@@ -1,6 +1,6 @@
-/* ───────────────────────╮
-│ 🫐 blueberry ⬩ yoghurt
-╰──────────────────────── */
+/* ────────────────────╮
+│ 🫐 blueberry ⬩ cake
+╰───────────────────── */
 :root {
   --text: #2f3d61;
   --en-text: #53678f;
@@ -9,7 +9,7 @@
   --bg-bottom: #e7efff;
   --divider: #97afe6;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/blueberry.yoghurt.jpg');
+  --wallpaper: url('wallpapers/blueberry.cake.jpg');
 }
 
 /* ──────────────────────╮
