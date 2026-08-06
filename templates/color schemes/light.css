@@ -8,7 +8,7 @@
   --bg-top: #f8f6ff;
   --bg-bottom: #e7efff;
   --divider: #97afe6;
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/blueberry.yoghurt.jpg');
 }
 
@@ -22,7 +22,7 @@
   --bg-top: #eff1f5;
   --bg-bottom: #e6e9ef;
   --divider: #9ca0b0;
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/catppuccin.latte.jpg');
 }
 
@@ -36,7 +36,7 @@
   --bg-top: #fdf6e3;
   --bg-bottom: #efebd4;
   --divider: #93b259;
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/everforest.jpg');
 }
 
@@ -50,6 +50,6 @@
   --bg-top: #fffaf3;
   --bg-bottom: #f2e9e1;
   --divider: #9893a5;
-  --edge: color-mix(in srgb, var(--divider), transparent 70%);
+  --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/rose.pine.dawn.jpg');
 }
