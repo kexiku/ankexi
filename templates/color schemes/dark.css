@@ -1,17 +1,3 @@
-/* ────────────────────╮
-│ 🍰 blueberry ⬩ cake
-╰───────────────────── */
-:root {
-  --text: #edf3ff;
-  --en-text: #cad8f5;
-  --accent: #a6c8ff;
-  --bg-top: #3f4b78;
-  --bg-bottom: #262d49;
-  --divider: #7f96d8;
-  --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/blueberry.cake.jpg');
-}
-
 /* ──────────────────────────╮
 │ ☕ catppuccin ⬩ macchiato
 ╰─────────────────────────── */
