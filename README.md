@@ -1,4 +1,4 @@
-# <p align="center"> <b> :candy: Ankitty :candy: </b> </p>
+# <p align="center"> <b> :paw_prints: Ankitty :paw_prints: </b> </p>
 
 <p align="center">
   <img src="/assets/preview.webp" alt="Flash card preview" />
@@ -76,7 +76,7 @@ Layout templates you can manually add to your cards and customize as you wish :c
 
 ## :framed_picture: Overview
 
-### <p align="center"> <i> Light themes </i> </p>
+### <p align="center"> <i> · Light themes · </i> </p>
 
 <p align="center">
   <a><img src="./assets/screenshots/blueberry.yoghurt.webp" width="48%" alt="blueberry yoghurt theme preview" /></a>
@@ -87,7 +87,7 @@ Layout templates you can manually add to your cards and customize as you wish :c
   <a><img src="./assets/screenshots/rose.pine.dawn.webp" width="48%" alt="rosé pine dawn theme preview" /></a>
 </p>
 
-### <p align="center"> <i> Dark themes </i> </p>
+### <p align="center"> <i> · Dark themes · </i> </p>
 
 <p align="center">
   <a><img src="./assets/screenshots/catppuccin.macchiato.webp" width="48%" alt="catppuccin macchiato theme preview" /></a>
