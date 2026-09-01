@@ -1,4 +1,4 @@
-# <p align="center"> <b> :paw_prints: Ankitty :paw_prints: </b> </p>
+# <p align="center"> <b> :blueberries: Ankexi :blueberries: </b> </p>
 
 <p align="center">
   <img src="/assets/preview.webp" alt="Flash card preview" />
@@ -104,7 +104,7 @@ Layout templates you can manually add to your cards and customize as you wish :c
   <a><img src="./assets/screenshots/piano.woman.webp" width="48%" alt="piano woman theme preview" /></a>
 </p>
 
-## :scroll: Licensing
+## :scroll: License
 
 This project is licensed under the MIT license, see [`LICENSE`](./LICENSE) for details.  
 The [Literata](https://github.com/googlefonts/literata) font used in this project is licensed under the OFL-1.1 license.
