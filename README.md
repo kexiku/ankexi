@@ -7,7 +7,7 @@
 > [!NOTE]
 > This project is a fork of [Ankite](https://github.com/Swiddis/Ankite) by [Simeon Widdis](https://github.com/Swiddis)
 
-*Ankitty* is a minimalist Anki template I use for my English vocabulary flashcards.
+*Ankexi* is a minimalist Anki template I use for my English vocabulary flashcards.
 
 I maintain it primarily for the personal usage, but keep it public in case anyone would find it cool enough to add it to their study arsenal.
 
@@ -15,7 +15,6 @@ As the original creator states:
 > *...it's designed mostly with language learning in mind, but at a glance there shouldn't be much in the way of using it for other subjects*
 
 ### :star: Core features
-- Centered cards (was pain in the ass to set up)
 - Adjustable color schemes
 - Dark & light mode compatibility
 - Mobile support
@@ -23,7 +22,6 @@ As the original creator states:
 ### :sparkles: Fork enhancements
 
 - More stylish color schemes
-- Boosted study buddies' envy level
 - Aesthetic wallpapers included
 
 ## :hammer_and_wrench: Installation
@@ -33,7 +31,7 @@ You have 2 options:
 ### :package: Ready-made deck
 
 Example card pack to demonstrate all the features.  
-Just [download](https://github.com/satanori/Ankitty/raw/refs/heads/main/ankitty.apkg) and import to your collection.
+Just [download](https://github.com/kexiku/ankexi/raw/refs/heads/main/ankexi.apkg) and import to your collection.
 
 ### :card_index_dividers: Template files
 
@@ -112,4 +110,6 @@ This project is licensed under the MIT license, see [`LICENSE`](./LICENSE) for d
 The [Literata](https://github.com/googlefonts/literata) font used in this project is licensed under the OFL-1.1 license.
 
 Images used as [wallpapers](./wallpapers) were gathered from all over the Internet, so their original sources are unknown.  
-If you are the rightful owner of any of the provided images and would like your name to be mentioned, or your work to be fully removed from this project, please contact me via email: [nuska.arbuzka@gmail.com](mailto:nuska.arbuzka@gmail.com)
+If you are the rightful owner of any of the provided images and would like your name to be mentioned, or your work to be fully removed from this project, please contact me via email: [kexiku@proton.me](mailto:kexiku@proton.me)
+
+### <p align="center"> 𓆩♡𓆪 </p>
