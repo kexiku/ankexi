@@ -4,8 +4,8 @@ check 'templates' > 'color schemes' */
   --text: #cad3f5;
   --en-text: #a5adcb;
   --accent: #f4dbd6;
-  --bg-top: #24273a;
-  --bg-bottom: #1e2030;
+  --bg-header: #24273a;
+  --bg-body: #1e2030;
   --divider: #6e738d;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
   --wallpaper: url('wallpapers/catppuccin.macchiato.jpg');
@@ -46,7 +46,7 @@ html {
 
 .mobile .card,
 .mobile .card.nightMode {
-  background-color: var(--bg-bottom);
+  background-color: var(--bg-body);
   font-size: 1.75rem;
 }
 
@@ -77,7 +77,7 @@ z-index: -1;
   border: none;
   height: 100%;
   max-width: none;
-  background-color: var(--bg-bottom);
+  background-color: var(--bg-body);
   box-shadow: none;
 
   display: flex;
@@ -86,26 +86,26 @@ z-index: -1;
   justify-content: center;
 }
 
-.top {
-  background-color: var(--bg-top);
+.card-header {
+  background-color: var(--bg-header);
   padding: 1.875rem;
 }
 
-.bottom {
-  background-color: var(--bg-bottom);
+.card-body {
+  background-color: var(--bg-body);
   padding: 1.875rem;
 }
 
-.hidden {
+.audio {
   display: none;
 }
 
-.small {
+.caption {
   color: var(--en-text);
   font-size: 1.25rem;
 }
 
-.medium {
+.main-text {
   font-size: 1.625rem;
 }
 
