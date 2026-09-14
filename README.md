@@ -5,11 +5,11 @@
 </p>
 
 > [!NOTE]
-> This project is a fork of [Ankite](https://github.com/Swiddis/Ankite) by [Simeon Widdis](https://github.com/Swiddis)
+> This project is a fork of [Ankite](https://github.com/Swiddis/Ankite) by Simeon Widdis
 
 *Ankexi* is a minimalist Anki template I use for my English vocabulary flashcards.
 
-I maintain it primarily for the personal usage, but keep it public in case anyone would find it cool enough to add it to their study arsenal.
+While I maintain this project primarily for personal use, I'd be happy if it found a place in your tool belt and bring a little brightness to your study :white_heart:
 
 As the original creator states:
 > *...it's designed mostly with language learning in mind, but at a glance there shouldn't be much in the way of using it for other subjects*
@@ -89,19 +89,15 @@ Layout templates you can manually add to your cards and customize as you wish :c
 
 <p align="center">
   <a><img src="./assets/screenshots/catppuccin.macchiato.webp" width="48%" alt="catppuccin macchiato theme preview" /></a>
-  <a><img src="./assets/screenshots/catppuccin.mocha.webp" width="48%" alt="catppuccin mocha theme preview" /></a>
-</p>
-<p align="center">
-  <a><img src="./assets/screenshots/gruvbox.webp" width="48%" alt="gruvbox theme preview" /></a>
   <a><img src="./assets/screenshots/kanagawa.webp" width="48%" alt="kanagawa theme preview" /></a>
 </p>
 <p align="center">
   <a><img src="./assets/screenshots/nord.webp" width="48%" alt="nord theme preview" /></a>
-  <a><img src="./assets/screenshots/rose.pine.webp" width="48%" alt="rosé pine theme preview" /></a>
-</p>
-<p align="center">
-  <a><img src="./assets/screenshots/ayu.mirage.webp" width="48%" alt="ayu mirage theme preview" /></a>
   <a><img src="./assets/screenshots/piano.woman.webp" width="48%" alt="piano woman theme preview" /></a>
+</p>
+
+<p align="center"> 
+  <i> All the available theme templates can be found <a href="./templates/color%20schemes/">here</a> </i>
 </p>
 
 ## :scroll: License
