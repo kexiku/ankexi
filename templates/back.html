@@ -1,19 +1,15 @@
 <div id="content">
   <div class="card-header">
     <span class="audio">{{Audio}}</span>
-    {{Front}}
-    <br>
-    <span class="main-text">{{Lemmas}}</span>
+    {{Word}}
+    <div class="caption">
+      {{#Pronunciation}}{{Pronunciation}}{{/Pronunciation}}
+    </div>
   </div>
 
   <div class="card-body">
-    {{Word}}:
-    <br>
     <span class="main-text">{{Definition}}</span>
-    <br>
     <hr class="divider">
-    <div class="caption">
-      {{#Back}}{{Back}}{{/Back}}
-    </div>
+    <span class="details">{{Example}}</span>
   </div>
 </div>
