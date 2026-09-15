@@ -3,13 +3,13 @@
 ╰───────────────────── */
 :root {
   --text: #2f3d61;
-  --en-text: #53678f;
+  --faded: #53678f;
   --accent: #5f88da;
   --bg-header: #f8f6ff;
   --bg-body: #e7efff;
   --divider: #97afe6;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/blueberry.cake.jpg');
+  --wallpaper: url("wallpapers/blueberry.cake.jpg");
 }
 
 /* ──────────────────────╮
@@ -17,13 +17,13 @@
 ╰─────────────────────── */
 :root {
   --text: #4c4f69;
-  --en-text: #6c6f85;
+  --faded: #6c6f85;
   --accent: #dd7878;
   --bg-header: #eff1f5;
   --bg-body: #e6e9ef;
   --divider: #9ca0b0;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/catppuccin.latte.jpg');
+  --wallpaper: url("wallpapers/catppuccin.latte.jpg");
 }
 
 /* ──────────────╮
@@ -31,13 +31,13 @@
 ╰─────────────── */
 :root {
   --text: #5c6a72;
-  --en-text: #708089;
+  --faded: #708089;
   --accent: #8da101;
   --bg-header: #fdf6e3;
   --bg-body: #efebd4;
   --divider: #93b259;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/everforest.jpg');
+  --wallpaper: url("wallpapers/everforest.jpg");
 }
 
 /* ──────────────────────╮
@@ -45,11 +45,11 @@
 ╰─────────────────────── */
 :root {
   --text: #464261;
-  --en-text: #797593;
+  --faded: #797593;
   --accent: #d7827e;
   --bg-header: #fffaf3;
   --bg-body: #f2e9e1;
   --divider: #9893a5;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/rose.pine.dawn.jpg');
+  --wallpaper: url("wallpapers/rose.pine.dawn.jpg");
 }

@@ -1,14 +1,14 @@
-/* For more color schemes 
+/* For more color schemes
 check 'templates' > 'color schemes' */
 :root {
   --text: #cad3f5;
-  --en-text: #a5adcb;
+  --faded: #a5adcb;
   --accent: #f4dbd6;
   --bg-header: #24273a;
   --bg-body: #1e2030;
   --divider: #6e738d;
   --edge: color-mix(in srgb, var(--divider), transparent 30%);
-  --wallpaper: url('wallpapers/catppuccin.macchiato.jpg');
+  --wallpaper: url("wallpapers/catppuccin.macchiato.jpg");
 }
 
 @font-face {
@@ -24,76 +24,79 @@ check 'templates' > 'color schemes' */
 }
 
 html {
-  font-size: 100%;
-  min-height: 100%;
   display: flex;
   flex-direction: column;
+  font-size: 100%;
+  min-height: 100%;
 }
 
 .card,
 .card.nightMode {
-  font-family: "literata", serif;
-  font-weight: 300;
-  font-size:  2.125rem;
-  text-align: center;
-  color: var(--text);
-
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
+
+  font-family: "literata", serif;
+  font-size:  2.125rem;
+  font-weight: 300;
+  text-align: center;
+
+  color: var(--text);
 }
 
 .mobile .card,
 .mobile .card.nightMode {
-  background-color: var(--bg-body);
   font-size: 1.75rem;
+  background-color: var(--bg-body);
 }
 
 .card::before,
 .card.nightMode::before {
-content: "";
-position: fixed;
-top: 0; left: 0; width: 100%; height: 100%;
-background-image: var(--wallpaper);
-background-size: cover;
-filter: blur(4px);
-z-index: -1;
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  z-index: -1;
+
+  background-image: var(--wallpaper);
+  background-size: cover;
+  filter: blur(4px);
 }
 
 #content {
-  border-radius: 30px;
-  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.5);
-  border: 3px solid var(--edge);
-  overflow: hidden;
-
   width: 100%;
   max-width: 750px;
   margin: 0 auto;
+  border: 3px solid var(--edge);
+  border-radius: 30px;
+  overflow: hidden;
+
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.5);
 }
 
 .mobile #content {
-  border-radius: 0;
-  border: none;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+
   height: 100%;
   max-width: none;
+  border: none;
+  border-radius: 0;
+
   background-color: var(--bg-body);
   box-shadow: none;
-
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .card-header {
-  background-color: var(--bg-header);
   padding: 1.875rem;
+  background-color: var(--bg-header);
 }
 
 .card-body {
-  background-color: var(--bg-body);
   padding: 1.875rem;
+  background-color: var(--bg-body);
 }
 
 .audio {
@@ -107,12 +110,12 @@ z-index: -1;
 .details {
   font-style: italic;
   font-size: 1.475rem;
-  color: var(--en-text);
+  color: var(--faded);
 }
 
 .caption {
   font-size: 1.25rem;
-  color: var(--en-text);
+  color: var(--faded);
 }
 
 em,
@@ -125,7 +128,7 @@ b {
 
 .divider {
   height: 1.5px;
-  border-radius: 1px;
   margin-bottom: 1.25rem;
+  border-radius: 1px;
   background-color: var(--divider);
 }
