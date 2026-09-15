@@ -68,7 +68,7 @@ z-index: -1;
   overflow: hidden;
 
   width: 100%;
-  max-width: 850px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
@@ -100,13 +100,19 @@ z-index: -1;
   display: none;
 }
 
-.caption {
-  color: var(--en-text);
-  font-size: 1.25rem;
+.main-text {
+  font-size: 1.875rem;
 }
 
-.main-text {
-  font-size: 1.625rem;
+.details {
+  font-style: italic;
+  font-size: 1.475rem;
+  color: var(--en-text);
+}
+
+.caption {
+  font-size: 1.25rem;
+  color: var(--en-text);
 }
 
 em,
@@ -119,6 +125,7 @@ b {
 
 .divider {
   height: 1.5px;
-  background-color: var(--divider);
   border-radius: 1px;
+  margin-bottom: 1.25rem;
+  background-color: var(--divider);
 }
