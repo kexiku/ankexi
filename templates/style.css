@@ -118,6 +118,7 @@ html {
   color: var(--faded);
 }
 
+.cloze,
 em,
 strong,
 b {

@@ -7,9 +7,9 @@
 > [!NOTE]
 > This project is a fork of [Ankite](https://github.com/Swiddis/Ankite) by Simeon Widdis
 
-*Ankexi* is a minimalist Anki template I use for my English vocabulary flashcards.
+*Ankexi* is a minimalist Anki template suitable for English vocabulary flashcards.
 
-While I maintain this project primarily for personal use, I'd be happy if it found a place in your tool belt and bring a little brightness to your study :white_heart:
+While I maintain this project primarily for personal use, I'd be happy if it found a place in your tool belt and bring some flair to your study routine :white_heart:
 
 As the original creator states:
 > *...it's designed mostly with language learning in mind, but at a glance there shouldn't be much in the way of using it for other subjects*
@@ -21,21 +21,29 @@ As the original creator states:
 
 ### :sparkles: Fork enhancements
 
-- More stylish color schemes
+- More color schemes
+- Extended note types support
 - Aesthetic wallpapers included
 
 ## :hammer_and_wrench: Installation
 
 You have 2 options:
 
-### :package: Ready-made deck
+### :package: Ready-made
 
-Example card pack to demonstrate all the features.  
-Just [download](https://github.com/kexiku/ankexi/raw/refs/heads/main/ankexi.apkg) and import to your collection.
+Standard card pack.  
+Includes basic, cloze and ru15k sentence decks, alongside with the default one.
 
-### :card_index_dividers: Template files
+To use it, go to release page, download the `.apkg` file and import to your collection.
 
-Layout templates you can manually add to your cards and customize as you wish :cherry_blossom:
+> [!IMPORTANT]
+> I couldn't find a way to get Anki to include wallpaper files in the archive, so for now, the best workaround is to manually download the wallpapers folder and place it in `collection.media` inside your profile folder.
+>
+> [*How to locate the profile folder?*](https://docs.ankiweb.net/files.html#user-data)
+
+### :sewing_needle: Handmade
+
+Template files you can manually add to your cards and customize as you wish :cherry_blossom:
 
 <details>
   <summary>HTML & CSS</summary><br/>
@@ -46,21 +54,23 @@ Layout templates you can manually add to your cards and customize as you wish :c
 
 <details>
   <summary>Fields</summary><br/>
-  
-  Go to 'Manage Note Types', then 'Fields', and add fields to make the fields list look like this:
 
-  <p>
-    <img
-      src="/assets/fields.png"
-      alt="Card fields: Word, Front, Back, Rank, Audio, Definition, Lemmas",
-      width="50%"
-    />
-  </p>
+  If you'd like to implement the same card type I use, go to 'Manage Note Types', click 'Add', 'Add: Cloze', and edit the card fields as follows:
+
+  ```shell
+  1. Word
+  2. Audio
+  3. Pronunciation
+  4. Definition
+  5. Example # rename 'Text' to this one
+  ```
+
+  Make sure the default 'Text' field is using as an 'Example' one, otherwise it won't allow you to create cloze deletions.
 </details>
 
 <details>
   <summary>Font</summary><br/>
-  
+
   - Locate font files [here](./fonts)
   - Follow the [Anki Manual on Installing Fonts](https://docs.ankiweb.net/templates/styling.html#installing-fonts)
 </details>
@@ -96,7 +106,7 @@ Layout templates you can manually add to your cards and customize as you wish :c
   <a><img src="./assets/screenshots/piano.woman.webp" width="48%" alt="piano woman theme preview" /></a>
 </p>
 
-<p align="center"> 
+<p align="center">
   <i> All the available theme templates can be found <a href="./templates/color%20schemes/">here</a> </i>
 </p>
 
@@ -105,7 +115,6 @@ Layout templates you can manually add to your cards and customize as you wish :c
 This project is licensed under the MIT license, see [`LICENSE`](./LICENSE) for details.  
 The [Literata](https://github.com/googlefonts/literata) font used in this project is licensed under the OFL-1.1 license.
 
-Images used as [wallpapers](./wallpapers) were gathered from all over the Internet, so their original sources are unknown.  
-If you are the rightful owner of any of the provided images and would like your name to be mentioned, or your work to be fully removed from this project, please contact me via email: [kexiku@proton.me](mailto:kexiku@proton.me)
+If you want to see your favorite deck supported, or having trouble with one of the existing ones, feel free to open an issue or contact me directly by email: [kexiku@proton.me](mailto:kexiku@proton.me)
 
 ### <p align="center"> 𓆩♡𓆪 </p>
