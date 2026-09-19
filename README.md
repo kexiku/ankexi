@@ -29,28 +29,18 @@ As the original creator states:
 
 You have 2 options:
 
-### :package: Ready-made
+### :necktie: Ready-made
 
 Standard card pack.  
-Includes basic, cloze and ru15k sentence decks, alongside with the default one.
+Includes basic, cloze and [ru15k](https://ankiweb.net/shared/info/563580199) sentence decks, alongside with the default one.
 
-To use it, go to release page, download the `.apkg` file and import to your collection.
+To use it, go to [releases](https://github.com/kexiku/ankexi/releases/latest) page, download the `.apkg` file and import to your collection.
 
-> [!IMPORTANT]
-> I couldn't find a way to get Anki to include wallpaper files in the archive, so for now, the best workaround is to manually download the wallpapers folder and place it in `collection.media` inside your profile folder.
->
-> [*How to locate the profile folder?*](https://docs.ankiweb.net/files.html#user-data)
+> :warning: The current version has a wallpaper issue, see the release note for details
 
 ### :sewing_needle: Handmade
 
 Template files you can manually add to your cards and customize as you wish :cherry_blossom:
-
-<details>
-  <summary>HTML & CSS</summary><br/>
-
-  - Find source files [here](/templates)
-  - Open 'Manage Note Types' (`Ctrl` + `Shift` + `N`), then 'Cards', and copy-paste the code from each template file to the corresponding field
-</details>
 
 <details>
   <summary>Fields</summary><br/>
@@ -69,6 +59,13 @@ Template files you can manually add to your cards and customize as you wish :che
 </details>
 
 <details>
+  <summary>HTML & CSS</summary><br/>
+
+  - Find source files [here](/templates)
+  - Open the Note Types menu (`Ctrl` + `Shift` + `N`), select your note type, click 'Cards', and copy-paste the code from each template file to the corresponding field in Template section
+</details>
+
+<details>
   <summary>Font</summary><br/>
 
   - Locate font files [here](./fonts)
@@ -78,8 +75,9 @@ Template files you can manually add to your cards and customize as you wish :che
 <details>
   <summary>Wallpapers</summary><br/>
 
-  - Move the [wallpapers](./wallpapers) folder to your Anki profile directory (`%APPDATA%\Anki2` on Windows)  
-  - Your styling template should automatically load the correct wallpaper then
+  - [Download](https://github.com/kexiku/ankexi/releases/download/v1.0/wallpapers.zip) the `wallpapers.zip` archive
+  - Extract it in 'collection.media' folder inside your Anki profile folder
+  - If you've pasted the [CSS template](/templates/style.css) to your notes correctly, it should automatically load the selected wallpaper then
 </details>
 
 ## :framed_picture: Overview
